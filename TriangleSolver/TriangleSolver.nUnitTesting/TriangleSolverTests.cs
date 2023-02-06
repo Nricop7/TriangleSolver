@@ -225,6 +225,55 @@ namespace TriangleSolver.nUnitTesting
         }
 
 
+        //INVALID TESTS
+
+        [Test]
+        public void AnalyzeTriangle_InvalidSides_ReturnsInvalidTriangle_1()
+        {
+            // Arrange
+            Triangle triangle = new Triangle();
+            int firstSide = 2;
+            int secondSide = 3;
+            int thirdSide = 7;
+
+            // Act
+            string result = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.AreEqual("Based on the values entered, the triangle is INVALID", result);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_InvalidSides_ReturnsInvalidTriangle_2()
+        {
+            // Arrange
+            Triangle triangle = new Triangle();
+            int firstSide = -2;
+            int secondSide = -4;
+            int thirdSide = -3;
+
+            // Act
+            string result = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.AreEqual("Based on the values entered, the triangle is INVALID", result);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_InvalidSides_ReturnsInvalidTriangle_3()
+        {
+            // Arrange
+            Triangle triangle = new Triangle();
+            int firstSide = 3;
+            int secondSide = 3;
+            int thirdSide = 8;
+
+            // Act
+            string result = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.AreEqual("Based on the values entered, the triangle is INVALID", result);
+        }
 
 
     }
