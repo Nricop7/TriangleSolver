@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\enric\\OneDrive\\Documents\\GitHub\\TriangleSolver\\TriangleSolver\\TriangleSolver\\TriangleSolver.csproj": {
+                "projectPath": "C:\\Users\\enric\\OneDrive\\Documents\\GitHub\\TriangleSolver\\TriangleSolver\\TriangleSolver\\TriangleSolver.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -79,6 +83,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\enric\\OneDrive\\Documents\\GitHub\\TriangleSolver\\TriangleSolver\\TriangleSolver\\TriangleSolver.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\enric\\OneDrive\\Documents\\GitHub\\TriangleSolver\\TriangleSolver\\TriangleSolver\\TriangleSolver.csproj",
+        "projectName": "TriangleSolver",
+        "projectPath": "C:\\Users\\enric\\OneDrive\\Documents\\GitHub\\TriangleSolver\\TriangleSolver\\TriangleSolver\\TriangleSolver.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

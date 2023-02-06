@@ -973,6 +973,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "TriangleSolver/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TriangleSolver.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TriangleSolver.dll": {}
+        }
       }
     }
   },
@@ -3945,6 +3954,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "TriangleSolver/1.0.0": {
+      "type": "project",
+      "path": "../TriangleSolver/TriangleSolver.csproj",
+      "msbuildProject": "../TriangleSolver/TriangleSolver.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3953,6 +3967,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "TriangleSolver >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -3982,7 +3997,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\enric\\OneDrive\\Documents\\GitHub\\TriangleSolver\\TriangleSolver\\TriangleSolver\\TriangleSolver.csproj": {
+              "projectPath": "C:\\Users\\enric\\OneDrive\\Documents\\GitHub\\TriangleSolver\\TriangleSolver\\TriangleSolver\\TriangleSolver.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
