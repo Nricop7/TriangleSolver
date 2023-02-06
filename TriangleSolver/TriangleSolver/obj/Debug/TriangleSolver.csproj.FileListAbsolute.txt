@@ -4,3 +4,9 @@ C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\Tria
 C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
 C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
+C:\Users\enric\OneDrive\Documents\GitHub\TriangleSolver\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.dll
+C:\Users\enric\OneDrive\Documents\GitHub\TriangleSolver\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.pdb
+C:\Users\enric\OneDrive\Documents\GitHub\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.AssemblyReference.cache
+C:\Users\enric\OneDrive\Documents\GitHub\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
+C:\Users\enric\OneDrive\Documents\GitHub\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
+C:\Users\enric\OneDrive\Documents\GitHub\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
