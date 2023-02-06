@@ -171,7 +171,58 @@ namespace TriangleSolver.nUnitTesting
         }
 
 
+        // ZERO SIDES TEST
 
+        [Test]
+        public void AnalyzeTriangle_InputContainsZero_ReturnsInvalid_1()
+        {
+            // Arrange
+            int firstSide = 0;
+            int secondSide = 3;
+            int thirdSide = 4;
+            string expectedResult = "At least one side of your triangle has a zero length and is thus invalid";
+            Triangle triangle = new Triangle();
+
+            // Act
+            string actualResult = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult, "AnalyzeTriangle_InputContainsZero_ReturnsInvalid failed");
+        }
+
+        [Test]
+        public void AnalyzeTriangle_InputContainsZero_ReturnsInvalid_2()
+        {
+            // Arrange
+            int firstSide = 0;
+            int secondSide = 0;
+            int thirdSide = 4;
+            string expectedResult = "At least one side of your triangle has a zero length and is thus invalid";
+            Triangle triangle = new Triangle();
+
+            // Act
+            string actualResult = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult, "AnalyzeTriangle_InputContainsZero_ReturnsInvalid failed");
+        }
+
+        [Test]
+        public void AnalyzeTriangle_InputContainsZero_ReturnsInvalid_3()
+        {
+            // Arrange
+            int firstSide = 1;
+            int secondSide = 2;
+            int thirdSide = 0;
+            string expectedResult = "At least one side of your triangle has a zero length and is thus invalid";
+            Triangle triangle = new Triangle();
+
+            // Act
+            string actualResult = triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult, "AnalyzeTriangle_InputContainsZero_ReturnsInvalid failed");
+        }
 
 
 
